@@ -3,7 +3,7 @@ import requests
 
 def get_domains():
     # Recupera il contenuto del Pastebin con i domini
-    pastebin_url = 'https://pastebin.com/raw/KgQ4jTy6'
+    pastebin_url = 'https://pastebin.com/raw/C9uN7XpY'   # https://pastebin.com/raw/KgQ4jTy6
     response = requests.get(pastebin_url)
     
     # Estrai i domini dalla risposta e rimuovi eventuali caratteri di ritorno a capo
@@ -22,10 +22,10 @@ def update_json_file():
     # Mappatura dei siti da aggiornare
     site_mapping = {
         'StreamingCommunity': domains[0],       # Primo dominio
-        'Filmpertutti': domains[3],             # Quarto dominio
-        'Tantifilm': domains[10],               # Undicesimo dominio
-        'CB01': domains[4],                    # Quinto dominio
-        'AnimeWorld': domains[12],              # Tredicesimo dominio
+        'Filmpertutti': domains[1],             # 3  Quarto dominio
+        'Tantifilm': domains[2],               # 10 Undicesimo dominio
+        'CB01': domains[3],                    # 4 Quinto dominio
+        'AnimeWorld': domains[4],              # 12 Tredicesimo dominio
     }
 
     # Aggiorna il file JSON per i siti specificati
