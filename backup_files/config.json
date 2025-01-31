@@ -48,7 +48,7 @@
             "enabled": "1"
         },
         "Guardaserie": {
-            "domain": "academy",
+            "domain": "mom",
             "enabled": "1",
             "GS_ForwardProxy": "0",
             "GS_PROXY": "1"
@@ -66,7 +66,7 @@
             "AW_PROXY": "0"
         },
         "SkyStreaming": {
-            "domain": "my",
+            "domain": "buzz",
             "enabled": "1"
         },
         "DaddyLiveHD": {
