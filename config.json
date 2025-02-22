@@ -22,7 +22,7 @@
             "enabled": "0"
         },
         "LordChannel": {
-            "domain": "com",
+            "domain": "net",
             "enabled": "1"
         },
         "StreamingWatch": {
