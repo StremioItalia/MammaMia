@@ -97,7 +97,7 @@ def update_json_file():
         'GuardaHD': general_domains[8],                      # Nono dominio
         'AnimeWorld': general_domains[9],                    # Decimo dominio
         'SkyStreaming': general_domains[10],                 # Undicesimo dominio
-        'DaddyLiveHD': general_domains[11],                  # Dodicesimo dominio
+       # 'DaddyLiveHD': general_domains[11],                  # Dodicesimo dominio
     }
 
     # Aggiorna il file JSON con gli URL finali (post-redirect)
